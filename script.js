@@ -43,6 +43,7 @@ function add(){
             </tr>`
             });
     document.getElementById("tableData").innerHTML = temp;
+    show();
 
 
 }
@@ -65,6 +66,7 @@ function show(){
             </tr>`
     });
     document.getElementById("tableData").innerHTML = temp;
+    document.getElementById("total_count").innerHTML = `Total Count:${data.length}`;
 
     }
 
